@@ -26,6 +26,7 @@ public class Application extends SpringBootServletInitializer {
 	}
     
 	public static void main(String[] args) {
+		System.out.println(123);
 		ctx = (WebApplicationContext)SpringApplication.run(Application.class, args);
 	}
 	
